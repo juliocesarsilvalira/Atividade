@@ -1,0 +1,11 @@
+n = int(input())
+lista = []
+for i in range(0,n+1):
+    lista.append(i)
+x = lista
+x = sorted(x, reverse = True)
+for i in range(0,n+1):
+    print(lista)
+    lista.pop(n)
+    n = n - 1
+print(x)
