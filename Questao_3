@@ -1,6 +1,6 @@
-n = int(input("digite um numero:"))
+n = int(input("Digite um número:"))
 i = 0
 while i < n:
     if i%2 == 0:
-        print("O numero", i,"é par.")
+        print("O número", i,"é par.")
     i = i + 1
